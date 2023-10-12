@@ -1,0 +1,5 @@
+4 + 10
+14
+console.log("4 + 10")
+VM139:1 4 + 10
+undefined

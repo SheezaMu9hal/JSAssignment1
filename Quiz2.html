@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chapter 2 Self-check Quiz</title>
+    <style>
+        body {
+            background: linear-gradient(to bottom, #f5f5dc, #fffff0);
+            border: 2px solid #ccc;
+            max-width: 800px;
+            margin: 10px auto;
+            padding: 20px 80px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+        h1 {
+            text-align: center;
+            font-weight: bolder;
+            font-size: 34px;
+
+        }
+        h2 {
+            text-align: center;
+            font-weight: bolder;
+            font-size: 30px;
+
+        }
+        h3 {
+            font-weight: normal;
+            font-size: 22px;
+        }
+        p {
+            font-family: Arial, sans-serif;
+            color: black;
+            font-size: 20px;
+            padding: 2px 10px;
+
+        }
+        code {
+            background-color: #f0f0f0;
+            padding: 2px 4px;
+            border: 1px solid #ccc;
+        }
+    </style>
+</head>
+<body>
+    <div class="text">
+        <h1>Chapter No 2</h1>
+        <h2>Self-check quiz</h2>
+
+        <ol>
+            <li>
+                <h3>What data type is the following variable?<br>const c = "5";</h3>
+                <p><b>Answer:</b> string</p>
+            </li>
+            <li>
+                <h3>What data type is the following variable?<br>const c = 91;</h3>
+                <p><b>Answer:</b> number</p>
+            </li>
+            <li>
+                <h3>Which one is generally better, line 1 or line 2?</h3>
+                 <code>let empty1 = undefined; //line 1</code><br>
+                <code>let empty2 = null; //line 2</code>
+                <p><b>Answer:</b> line 2</p>
+
+            </li>
+            <li>
+                <h3>What is the console output for the following?</h3>
+                <code>
+                    let a = "Hello";<br>
+                a = "world";<br>
+                console.log(a);</code><br>
+                <p><b>Answer:</b> world</p>
+            </li>
+            <li>
+                <h3>What will be logged to the console?</h3>
+                <code>
+                    let a = "world"; <br>
+                    let b = `Hello ${a}!`; <br>
+                    console.log(b);</code> <br>
+                <p><b>Answer:</b> Hello world!</p>
+            </li>
+            <li>
+                <h3>What is the value of a?</h3>
+                <code>let a = "Hello";<br>
+                    a = prompt("world");<br>
+                    console.log(a);</code><br>
+                <p><b>Answer:</b> The value of a will be the value entered by the user.</p>
+            </li>
+            <li>
+                <h3>What is the value of b output to the console?</h3>
+                <code>let a = 5;<br>
+                    let b = 70;<br>
+                    let c = "5";<br>
+                    b++;<br>
+                    console.log(b);</code><br>
+                <p><b>Answer:</b> The value of b output to the console will be 71.</p>
+            </li>
+            <li>
+                <h3>What is the value of result?</h3>
+                <code>let result = 3 + 4 * 2 / 8; </code><br>
+                <p><b>Answer:</b> The value of result is 4.</p>
+            </li>
+            <li>
+                <h3>What is the value of total and total2?</h3>
+                <code>let firstNum = 5;<br>
+                    let secondNum = 10;<br>
+                    firstNum++;<br>
+                    secondNum--;<br>
+                    let total = ++firstNum + secondNum;<br>
+                    console.log(total);<br>
+                    let total2 = 500 + 100 / 5 + total--;<br>
+                    console.log(total2);</code><br>
+                <p><b>Answer:</b> The value of total is 17 and The value of total2 is 536.</p>
+            </li>
+            <li>
+                <h3>What is logged to the console here?</h3>
+                <code>const a = 5;<br>
+                    const b = 10;<br>
+                    console.log(a > 0 && b > 0); 
+                    console.log(a == 5 && b == 4); <br>
+                    console.log(true ||false); <br>
+                    console.log(a == 3 || b == 10); <br>
+                    console.log(a == 3 || b == 7);</code><br>
+                <p><b>Answer:</b> Output:<br>true<br>false<br>true<br>true<br>false</p>
+            </li>
+        </ol>
+    </div>
+    
+</body>
+</html>
